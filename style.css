@@ -1,0 +1,413 @@
+/*
+ Theme Name:    Electro Child
+ Theme URI:     https://themeforest.net/item/electro-electronics-store-woocommerce-theme/15720624
+ Description:   This is the child theme of Electro
+ Author:        MadrasThemes
+ Author URI:    https://madrasthemes.com/
+ Template:      electro
+ Version:       2.2.1
+ License:       GNU General Public License v2 or later
+ License URI:   http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:          light, dark, two-columns, right-sidebar, responsive-layout
+ Text Domain:   electro-child
+*/
+#wcfm_settings_form_payment_head{
+	display:none;
+}
+#wcfm_settings_form_shipping_head{
+	display:none;
+}
+#wcfm_products_manage_form_shipping_head{
+	display:none;
+}
+.wcfm_header_panel_messages,.wcfm_header_panel_enquiry,.wcfm_header_panel_knowledgebase{
+   display:none;	
+}
+.woocommerce-MyAccount-navigation-link--inquiry{
+	display:none;
+}
+.star-rating {
+    overflow: hidden;
+    position: relative;
+    height: 1em;
+    line-height: 1;
+    font-size: 1em;
+    width: 5.5em;
+    font-family: star;
+    display: none;
+}
+
+.buttoncontact{
+     background-color: #3c637a; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.buttonwhatsapp{
+     background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.listingdestinataire{
+
+}
+
+@media (min-width: 1200px){
+.owl-item>.product .product-inner, .products:not(.electro-v1)>.product .product-inner {
+    padding: 0.429em 0.714em 1em 0.714em;
+    background: #ffffff;
+    box-shadow: 0 0 2px #ccc;
+}
+
+.wp-caption {
+    margin-bottom: 0.0em;
+    max-width: 100%;
+	}}
+
+@media (min-width: 1200px){
+.container {
+    max-width: 1400px;
+}
+
+#menudevis{
+	width: 100%;
+    background-color: #0091d0;
+    text-align: center;
+	height:auto;
+	    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.butondevis{
+	background-color: #e93b96;
+    padding: 8px;
+    color: yellow;
+}
+.butondevis:hover{
+	background-color: #e93b96;
+    padding: 8px;
+    color: white;
+}
+.butoncreerdevis{
+	background-color: #e93b96;
+    padding: 8px;
+    color: yellow;
+}
+.butoncreerdevis:hover{
+	background-color: #e93b96;
+    padding: 8px;
+    color: white;
+}
+.butonbc{
+	background-color: #e93b96;
+    padding: 8px;
+    color: yellow;
+}
+.butonbc:hover{
+	background-color: #e93b96;
+    padding: 8px;
+    color: white;
+}
+.butonboutique{
+	background-color: #eee;
+    padding: 8px;
+    color: #0000;
+}
+.butonboutique:hover{
+	background-color: #e93b96;
+    padding: 8px;
+    color: white;
+}
+.devistable{
+	width:100%;
+	background-color:#ffff;
+}
+#devismain{
+	width:100%;
+}
+.devistableTh{
+	border:solid 1px;
+}
+.devistableTd{
+	border:solid 1px;
+}
+.ajax-loader {
+  visibility: hidden;
+ 
+  position: relative;
+  z-index: +100 !important;
+  width: 100px;
+  height:auto;
+}
+
+#tab_logic {
+  overflow-x: scroll;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#tab_logic td, #tab_logic th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#tab_logic tr:nth-child(even){background-color: #f2f2f2;}
+
+#tab_logic tr:hover {background-color: #ddd;}
+
+#tab_logic th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #042b3c;
+  color: white;
+}
+
+#TFtab_logic {
+  overflow-x: scroll;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#TFtab_logic td, #TFtab_logic th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#TFtab_logic tr:nth-child(even){background-color: #f2f2f2;}
+
+#TFtab_logic tr:hover {background-color: #ddd;}
+
+#TFtab_logic th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #042b3c;
+  color: white;
+}
+.devise2,.qty,.price,.poidunitaire,.poidtotal,.longueur,.largeur,.hauteur,.taux,.valeur,.montanttaxe{
+  width:60px !important;
+}
+
+
+.espaceacheteur {
+    color: #ffffff;
+    font-weight: bold;
+    background: #0091d0;
+    padding: 10px;
+}
+
+.espacefournisseur {
+		color: #ffffff;
+    font-weight: bold;
+    background: #eb6d00;
+    padding: 10px;
+}
+
+
+.liensbleu {
+	color:#0091d0;
+}
+
+.liensrouge {
+	color:#e72a8d;
+}
+}
+@media (min-width: 768px){
+.rtcl .col-md-4 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 33.33333333%;
+    flex: 0 0 33.33333333%;
+    max-width: 33.33333333%;
+    /*background: #ffffff;
+    border: #cccccc solid 1px;*/
+}
+
+.container-full-width{
+	max-width: 1280px;
+}
+
+
+.rtcl .btn-primary {
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    font-size: 1.5em;
+    padding: 10px 40px;
+}
+
+.rtcl .btn-primary:hover {
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    font-size: 1.5em;
+    padding: 10px 40px;
+}
+
+.rtcl .rtcl-post-section-title h3 .rtcl-icon {
+    font-size: 30px;
+    margin-right: 10px;
+    color: #eb6d00;
+}
+
+.rtcl .rtcl-post-section-title {
+    margin-bottom: 25px;
+    color: #000;
+    font-weight: bold;
+    background: #dfdfdf;
+	} }
+	
+
+[class*=" rtcl-icon-"]:before, [class^=rtcl-icon-]:before {
+    font-family: rtcl-glyphs;
+    font-style: normal;
+    font-weight: 400;
+    speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+	padding-right: 2px;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1em;
+    margin-left: .2em;
+    -webkit-font-smoothing: antialiased;
+    color: #ffffff;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.woocommerce-account .woocommerce {
+    margin-left: -.9375rem;
+    margin-right: -.9375rem;
+    background: #ffffff;
+    border: 1px solid #cccccc;
+    padding: 15px;
+}
+
+
+.wp-caption .wp-caption-text {
+    text-align: left;
+    font-style: normal;
+    font-weight: 600;
+    color: #3c637a;
+    font-size: 1.4em;
+    margin: 15px 0 0;
+	}
+	
+	.ombragebouton2019 {
+		-webkit-box-shadow: 3px 3px 5px 0px rgba(163,161,163,1);
+-moz-box-shadow: 3px 3px 5px 0px rgba(163,161,163,1);
+box-shadow: 3px 3px 5px 0px rgba(163,161,163,1);
+	}
+	
+	.devenirvendeur2019 {
+		background: #ffffff;
+		border: #0091d0 2px solid;
+		color: #ffffff;
+		padding: 15px 25px;
+		border-radius: 4px;
+		font-size: 1.4em;
+		margin: 20%;
+		
+	}
+
+.replymessagerieinbox {
+	background: #00aeef;
+	color: #ffffff;
+	padding: 10px;
+	border-radius: 4px;
+}
+
+a.replymessagerieinbox {
+	background: #00aeef;
+	color: #ffffff;
+	padding: 10px;
+	border-radius: 4px;
+}
+
+.replymessageriegras {
+	font-weight: bold;
+}
+
+.rtcl .col-6 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    /* padding: 10px; */
+    margin: 10px;
+    /* background: #ffffff; */
+    /* border: #cccccc; */
+}
+
+
+.boutonmenurose {
+	
+background: #e9268c;
+padding: 10px 10px;
+border-radius: 4px;
+color: #ffffff;
+	
+}
+
+
+.boutonmenuorange {
+	
+background: #f59426;
+padding: 10px 10px;
+border-radius: 4px;
+color: #ffffff;
+	
+}
+
+.boutonmenunoir {
+	
+background: #000000;
+padding: 10px 10px;
+border-radius: 4px;
+color: #ffffff;
+	
+}
+.boutonmenubleu {
+	
+background: #1d4d72;
+padding: 10px 10px;
+border-radius: 4px;
+color: #ffffff;
+	
+}
+
+.row {
+        display: flex;
+      }
+      .col {
+        flex: 1; 
+        padding: 1em;
+        border: solid;
+      }
+
+
+
+	
